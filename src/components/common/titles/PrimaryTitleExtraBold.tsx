@@ -1,6 +1,9 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
+import {LeafLifeColors} from '../../../constants/LeafLifeColors';
+import {LeafLifeFonts} from '../../../constants/LeafLifeFonts';
+
 interface Iprops {
   text: string;
 }
@@ -19,5 +22,7 @@ const styles = StyleSheet.create({
   conatainer: {},
   text: {
     fontSize: 20,
+    fontFamily: LeafLifeFonts.PoppinBold,
+    color: LeafLifeColors.PrimaryGreenText,
   },
 });
